@@ -1,0 +1,29 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=8F:2C:1F:57:28:0C:32:07:35:8E:45:9F:B0:50:51:B6:D9:CF:95:96%3Bcom.example.nguyenanhlinh_google_maps
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.example.nguyenanhlinh_google_maps
+
+    SHA-1 certificate fingerprint:
+    8F:2C:1F:57:28:0C:32:07:35:8E:45:9F:B0:50:51:B6:D9:CF:95:96
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+<!--    Viết app sử dụng map để:-->
+<!--    - Tìm đường: từ vị trí hiện tại(hoặc 1 điểm bất kỳ), đến 1 điểm tùy ý(chọn trên mập hoặc search), hiện thời gian, khoảng cách giữa 2 điểm, hiện 2 kết quả(kết quả tốt nhất có màu khác), đảo ngược chiều, chọn phương tiện di chuyển-->
+<!--    - Di chuyển đến vị trí hiện tại, search 1 vị trí-->
+<!--    - Ấn giữ 1 đểm trên map thì show thông tin của điểm đó (lat, lng, địa chỉ, ...), chọn điểm khác thì marker điểm cũ mất đi-->
+<!--    - Có thể dùng Google Maps API, HERE Maps API-->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDrIxkUFOw5QCIEtgx_BEqN1OdNxLnN1C4</string>
+</resources>
